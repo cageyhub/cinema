@@ -1,0 +1,31 @@
+.movie {
+	background-color: #f5f5ee;
+	padding: 1rem;
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 1rem;
+}
+.movie__title {
+	font-size: 1.2rem;
+	font-weight: bold;
+	color: #0000aa;
+	margin-bottom: 2rem;
+}
+.movie__poster {
+	max-width: 11rem;
+	max-height: 16.5rem;
+	margin-right: 2rem;
+}
+.movie__date {
+	font-size: 1rem;
+	color: #555;
+	margin-bottom: 1rem;
+}
+.show__techno {
+	margin-right: 2rem;
+	margin-bottom: 1rem;
+}
+.show {
+	display: flex;
+	flex-direction: row;
+}

@@ -1,0 +1,342 @@
+{
+	"movies": [
+		{ "id": 1, "title": "Храброе сердце. Заговор в королевстве", "date":"31 жовтня, середа", "poster":"https://kino-teatr.ua/public/main/films/x2_poster_5bb6f54b2bc4d.jpg", "techno": "2d", "scedule": [{"id": 1, "time": "9:45"}, {"id": 2, "time": "15:45"}] },
+		{ "id": 2, "title": "Девушка, которая застряла в паутине", "date":"31 жовтня, середа", "poster": "https://kino-teatr.ua/public/main/films/x2_poster_61235.jpg", "techno": "2d", "scedule": [{"id": 3, "time": "12:00"}, {"id": 4, "time": "18:45"}] }
+	],
+  "seance": [{
+		"id": 1,
+		"name": "Храброе сердце. Заговор в королевстве",
+		"date":"31 жовтня, середа",
+		"time": "9:45",
+		"hall":	[
+			{"row": {
+				"id" : 1,
+				"price": 50,
+				"seats" :[
+					{
+					"id": 101,
+					"isOccuped": false
+					},
+					{
+					"id": 102,
+					"isOccuped": false
+					},
+					{
+					"id": 103,
+					"isOccuped": false
+					},
+					{
+					"id": 104,
+					"isOccuped": false
+					}
+				]
+				}
+			},
+			{"row": {
+				"id" : 2,
+				"price": 60,
+				"seats" :[
+					{
+					"id": 201,
+					"isOccuped": false
+					},
+					{
+					"id": 202,
+					"isOccuped": false
+					},
+					{
+					"id": 203,
+					"isOccuped": false
+					},
+					{
+					"id": 204,
+					"isOccuped": false
+					}
+				]
+				}
+			},
+			{"row": {
+				"id" : 3,
+				"price": 70,
+				"seats" :[
+					{
+					"id": 301,
+					"isOccuped": false
+					},
+					{
+					"id": 302,
+					"isOccuped": false
+					},
+					{
+					"id": 303,
+					"isOccuped": false
+					},
+					{
+					"id": 304,
+					"isOccuped": false
+					},
+					{
+					"id": 305,
+					"isOccuped": false
+					},
+					{
+					"id": 306,
+					"isOccuped": false
+					}
+				]
+				}
+			}
+		]
+	},
+	{
+		"id": 2,
+		"name": "Храброе сердце. Заговор в королевстве",
+		"date": "31 жовтня, середа",
+		"time": "15:45",
+		"hall":	[
+			{"row": {
+				"id" : 1,
+				"price": 50,
+				"seats" :[
+					{
+					"id": 101,
+					"isOccuped": false
+					},
+					{
+					"id": 102,
+					"isOccuped": false
+					},
+					{
+					"id": 103,
+					"isOccuped": false
+					},
+					{
+					"id": 104,
+					"isOccuped": false
+					}
+				]
+				}
+			},
+			{"row": {
+				"id" : 2,
+				"price": 60,
+				"seats" :[
+					{
+					"id": 201,
+					"isOccuped": false
+					},
+					{
+					"id": 202,
+					"isOccuped": false
+					},
+					{
+					"id": 203,
+					"isOccuped": false
+					},
+					{
+					"id": 204,
+					"isOccuped": false
+					}
+				]
+				}
+			},
+			{"row": {
+				"id" : 3,
+				"price": 70,
+				"seats" :[
+					{
+					"id": 301,
+					"isOccuped": false
+					},
+					{
+					"id": 302,
+					"isOccuped": false
+					},
+					{
+					"id": 303,
+					"isOccuped": false
+					},
+					{
+					"id": 304,
+					"isOccuped": false
+					},
+					{
+					"id": 305,
+					"isOccuped": false
+					},
+					{
+					"id": 306,
+					"isOccuped": false
+					}
+				]
+				}
+			}
+		]
+	},
+	{
+		"id": 3,
+		"name": "Девушка, которая застряла в паутине",
+		"date": "31 жовтня, середа",
+		"time": "12:00",
+		"hall":	[
+			{"row": {
+				"id" : 1,
+				"price": 50,
+				"seats" :[
+					{
+					"id": 101,
+					"isOccuped": false
+					},
+					{
+					"id": 102,
+					"isOccuped": false
+					},
+					{
+					"id": 103,
+					"isOccuped": false
+					},
+					{
+					"id": 104,
+					"isOccuped": false
+					}
+				]
+				}
+			},
+			{"row": {
+				"id" : 2,
+				"price": 60,
+				"seats" :[
+					{
+					"id": 201,
+					"isOccuped": false
+					},
+					{
+					"id": 202,
+					"isOccuped": false
+					},
+					{
+					"id": 203,
+					"isOccuped": false
+					},
+					{
+					"id": 204,
+					"isOccuped": false
+					}
+				]
+				}
+			},
+			{"row": {
+				"id" : 3,
+				"price": 70,
+				"seats" :[
+					{
+					"id": 301,
+					"isOccuped": false
+					},
+					{
+					"id": 302,
+					"isOccuped": false
+					},
+					{
+					"id": 303,
+					"isOccuped": false
+					},
+					{
+					"id": 304,
+					"isOccuped": false
+					},
+					{
+					"id": 305,
+					"isOccuped": false
+					},
+					{
+					"id": 306,
+					"isOccuped": false
+					}
+				]
+				}
+			}
+		]
+	},
+	{
+		"id": 4,
+		"name": "Девушка, которая застряла в паутине",
+		"date": "31 жовтня, середа",
+		"time": "18:45",
+		"hall":	[
+			{"row": {
+				"id" : 1,
+				"price": 50,
+				"seats" :[
+					{
+					"id": 101,
+					"isOccuped": false
+					},
+					{
+					"id": 102,
+					"isOccuped": false
+					},
+					{
+					"id": 103,
+					"isOccuped": false
+					},
+					{
+					"id": 104,
+					"isOccuped": false
+					}
+				]
+				}
+			},
+			{"row": {
+				"id" : 2,
+				"price": 60,
+				"seats" :[
+					{
+					"id": 201,
+					"isOccuped": false
+					},
+					{
+					"id": 202,
+					"isOccuped": false
+					},
+					{
+					"id": 203,
+					"isOccuped": false
+					},
+					{
+					"id": 204,
+					"isOccuped": false
+					}
+				]
+				}
+			},
+			{"row": {
+				"id" : 3,
+				"price": 70,
+				"seats" :[
+					{
+					"id": 301,
+					"isOccuped": false
+					},
+					{
+					"id": 302,
+					"isOccuped": false
+					},
+					{
+					"id": 303,
+					"isOccuped": false
+					},
+					{
+					"id": 304,
+					"isOccuped": false
+					},
+					{
+					"id": 305,
+					"isOccuped": false
+					}
+				]
+				}
+			}
+		]
+	}]
+}

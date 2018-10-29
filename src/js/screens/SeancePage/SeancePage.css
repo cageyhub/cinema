@@ -1,0 +1,72 @@
+.hall {
+	display: flex;
+	flex-direction: column;
+}
+.hall__screen {
+	width: 100%;
+	margin-bottom: 2rem;
+}
+.hall__row {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.status-panel {
+	min-width: 320px;
+	margin-left: 4rem;
+	padding-top: 2.75rem;
+}
+.status-panel table {
+	border-collapse: collapse;
+	width: 100%;
+}
+.status-panel table th, 
+.status-panel table td {
+	text-align: center;
+}
+.status-panel__head th {
+	border-bottom: 1px solid #ccc;
+	padding: 0.7rem 1rem;
+}
+.status-panel__head th:last-child {
+	width: 80px;
+}
+.status-panel__body td {
+	border-bottom: 1px solid #ccc;
+	padding: 0.7rem 1rem;
+}
+.status-panel__footer td {
+	padding: 0.8rem 1rem;
+}
+.status-panel__footer td:first-child {
+	text-align: left;
+}
+.status-panel__summary td {
+	font-size: 1.2rem;
+	font-weight: bold;
+	border-top: 1px solid #ccc;
+	padding: 0.8rem 1rem;
+}
+.movie__name {
+	font-size: 1.2rem;
+	font-weight: bold;
+	color: #0000bb;
+	margin-bottom: 1rem;
+}
+.movie__time {
+	margin-bottom: 2rem;
+}
+.seance {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+@media only screen and (max-width: 40em) {
+	.seance {
+		flex-direction: column;
+	}
+	.status-panel {
+		margin-left: 0;
+	}
+}
